@@ -6,6 +6,5 @@ var friend2 = "Amigo";
 alert(friend2.replace("Ami","ami"));
 //Metodo 3
 var friend3 = "Amigo";
-var a = "a";
-alert(friend3.slice(0,1));
-alert(a+friend3);
+var a = "am";
+alert(a+friend3.slice(2,5));
